@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+.section {
+  width: 100%;
+  height: 100vh; /* полная высота экрана */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column; /* чтобы навбар был сверху, текст снизу */
+  color: white;
+  font-size: 48px;
+}
+.logotip5{
+  margin-top:-75px;
+}
+.modlogo{
+  margin-left: 70px;
+  margin-top: -74px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  background: none;
+  margin-left: 1460px;/* Прозрачный фон */
+  z-index: 1;
+}
+.navbar a {
+  margin-right: 20px;
+}
+.section1 {
+   background-image: url("авиашоу 2 стр.jpg");
+ }
+.ul1{
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+.h1{
+  font-size: 35px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+  color: white; /* белый цвет текста */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.h2{
+  font-size: 35px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+  color: white; /* белый цвет текста */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.ol1{
+  font-size: 20px;
+  margin-left: 30px;
+}
+.imgs{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+li{
+  color: white; /* белый цвет текста */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+  font-family: "Rage Italic",sans-serif;
+  line-height: 1.2;
+}
+.pseudo-button {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+  max-width: fit-content;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  margin-left: 1030px;
+  margin-top: -47px;
+}
+
+.pseudo-button:hover {
+  background-color: #0056b3;
+}
+
+.pseudo-button:active {
+  background-color: #003f7f;
+  transform: scale(0.96);
+}
+
+
+
+
+
+
+
+
+.section2 {
+  background-image: url("авиашоу 2стр.jpg");
+}
+.h3{
+  font-size: 35px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+  color: white; /* белый цвет текста */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.h4{
+  font-size: 35px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-left: 13px;
+  color: white; /* белый цвет текста */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
+.ol4{
+  font-size: 20px;
+  margin-left: 30px;
+}
+.ul3{
+  font-size: 20px;
+  margin-left: 30px;
+  line-height: 1.3;
+}
+.imgs3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.marg{
+  margin-top: 35px;
+}
